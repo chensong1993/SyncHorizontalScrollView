@@ -53,16 +53,16 @@ dependencies {
 接下来看看代码
 ## 主要看看这个方法
 ``` groovy
-..把刚刚嵌套的联动控件初始化
- //横竖联动头容器
-    SyncHorizontalScrollView mTitleHorScv;
-    //横竖联动内容容器
-    SyncHorizontalScrollView mContentHorScv;
+  	//把刚刚嵌套的联动控件初始化
+  	//横竖联动头容器
+	SyncHorizontalScrollView mTitleHorScv;
+ 	//横竖联动内容容器
+	SyncHorizontalScrollView mContentHorScv;
 
 	// 设置标题和内容水平控件的联动
 	//将两个控件交叉引用，这样就实现了联动的效果
         mTitleHorScv.setScrollView(mContentHorScv);
         mContentHorScv.setScrollView(mTitleHorScv);
 ```
-## 只需要简单得一步就能实现标题和内容的纵向联动
-## 如果要实现三个控件扩者更多的联动只需要添加上面代码再将初始化的控件交叉引用即可
+ 只需要简单得一步就能实现标题和内容的纵向联动
+ 如果要实现三个控件扩者更多的联动只需要添加上面代码再将初始化的控件交叉引用即可
