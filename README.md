@@ -1,5 +1,5 @@
 # SyncHorizontalScrollView
-横竖联动的ScrollView
+横竖联动的支持Recycleview和listview和控件布局
 
 想直接使用的克隆项目一目了然
 https://codeload.github.com/chensong1993/SyncHorizontalScrollView/zip/master
