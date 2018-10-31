@@ -25,6 +25,8 @@ dependencies {
     implementation 'com.github.chensong1993:SyncHorizontalScrollView:v1.0.0'
 }
 ```
+想直接使用的克隆项目一目了然
+https://codeload.github.com/chensong1993/SyncHorizontalScrollView/zip/master
 
 接下来在布局中使用
 
