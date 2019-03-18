@@ -42,14 +42,14 @@ dependencies {
                 android:scrollbars="none">
 
                 <android.support.v7.widget.RecyclerView
-                    android:id="@+id/right_container_listview"
+                    android:id="@+id/right_container_rv"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="15dp"
                     android:background="#ffffff"
                     android:scrollbars="none" />
 
-            </com.shanghai.flexiblelibrary.SyncHorizontalScrollView>
+</com.shanghai.flexiblelibrary.SyncHorizontalScrollView>
 ```
 ## 如图有两个部分 头部和内容 那么就需要给头部和内容各嵌套一个SyncHorizontalScrollView
 
