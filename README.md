@@ -36,18 +36,18 @@ dependencies {
 ``` groovy
 <com.shanghai.flexiblelibrary.SyncHorizontalScrollView
       android:id="@+id/content_horsv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fillViewport="true"
-                android:scrollbars="none">
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:fillViewport="true"
+      android:scrollbars="none">
 
-                <android.support.v7.widget.RecyclerView
-                    android:id="@+id/right_container_rv"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="15dp"
-                    android:background="#ffffff"
-                    android:scrollbars="none" />
+      <android.support.v7.widget.RecyclerView
+       android:id="@+id/right_container_rv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginRight="15dp"
+       android:background="#ffffff"
+       android:scrollbars="none" />
 
 </com.shanghai.flexiblelibrary.SyncHorizontalScrollView>
 ```
